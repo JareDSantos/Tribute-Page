@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-family: "Scheherazade New", serif;
+}
+body {
+  background-color: #f5f1e4;
+}
+#title {
+  text-align: center;
+  margin: auto;
+  background-color: rgba(110, 0, 100, 0.1);
+  line-height: 2;
+}
+#title > p {
+  margin-top: -30px;
+  color: rgba(0, 0, 0, 0.7);
+  font-style: italic;
+}
+p {
+  font-size: 1.2em;
+}
+img {
+  max-width: 100%;
+  display: block;
+  border-radius: 2%;
+}
+figure {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 70%;
+  margin: 20px auto;
+  text-align: center;
+  color: #075fff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 2%;
+}
+figure:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+}
+#tribute-info {
+  max-width: 70%;
+  margin: 4% auto;
+}
+
+@media (max-width: 700px) {
+  figure {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  #tribute-info {
+    max-width: 80%;
+    font-size: 1.4em;
+  }
+}
+@media (max-width: 500px) {
+  figure {
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
